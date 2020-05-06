@@ -1,0 +1,15 @@
+#Subject Line
+<b>Новый фильм:</b> <i>{title} ({year}) - {content_rating}</i>
+#Message Body
+<movie>
+🏢  <b>Студия:</b> <i>{studio}</i>
+👷🏻  <b>Директор:</b> <i>{directors}</i>
+👫  <b>Актеры:</b> <i>{actors:[1:5]}</i>
+🕓  <b>Продолжительность:</b> <i>{duration} минут</i>
+🎭  <b>Жанр:</b> <i>{genres}</i>
+⚙️  <b>Качество и размер:</b><i>{video_width}x{video_height} - {video_resolution}p  ({file_size})</i>
+<b>Описание:</b>
+<b>★ {rating} | </b><i>{summary}</i>
+<a href="{poster_url}">&nbsp;</a>
+</movie>
+🔗  <b>Лежит в папке:</b> <a href="{plex_url}">{library_name}</a>
